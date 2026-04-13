@@ -1,0 +1,4 @@
+sebri: {alpha: 0.15, novelty_decay: 0.1, acrophily: 0.3}
+dhpa: {alpha_homophily: 0.45, beta_platform: 0.30, avg_degree: 12}
+defaults: {steps: 72, agents: 1218, seed: 42}
+russian_platforms: [Telegram, VKontakte, Odnoklassniki, TASS, RT, Sputnik]

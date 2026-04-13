@@ -1,0 +1,8 @@
+default_model: "mistral:7b-instruct"
+v5_models:
+  sentinel: {primary: "qwen2.5:7b", fallback: "phi3.5:3.8b"}
+  veritas:  {primary: "mistral:7b-instruct", fallback: "command-r:latest"}
+  nexus:    {primary: "llama3.1:8b"}
+  aegis:    {primary: "llama3.1:8b", fallback: "gemma2:9b"}
+  oracle:   {primary: "mistral:7b-instruct", secondary: "deepseek-r1:7b"}
+  forge:    {primary: "deepseek-r1:7b", fallback: "phi3.5:3.8b"}

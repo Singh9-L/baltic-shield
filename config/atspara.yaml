@@ -1,0 +1,4 @@
+# ATSPARA — Lithuanian Research Council | https://atspara.mf.vu.lt
+techniques: [{name: "Emotional Expression", freq: 0.362},{name: "Simplification", freq: 0.214},{name: "Doubt and Smear", freq: 0.168},{name: "Whataboutism", freq: 0.080},{name: "Repetition", freq: 0.057},{name: "Appeal to Authority", freq: 0.051},{name: "Flag-waving", freq: 0.033},{name: "Reductio ad Hitlerum", freq: 0.024},{name: "Bandwagoning", freq: 0.011}]
+narratives: [Distrust national institutions,Distrust Western institutions,Western moral decay,NATO aggression,Pro-authoritarian,National defamation,New world order,Migrant crisis,Climate denial,Economic collapse]
+survey: {N: 1218, LT: 405, LV: 404, EE: 409, articles: 2033, ratings: 2909}

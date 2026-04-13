@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  ollama:
+    image: ollama/ollama:latest
+    deploy: {resources: {reservations: {devices: [{driver: nvidia, count: 1, capabilities: [gpu]}]}}}
+    volumes: [ollama_data:/root/.ollama]
+    ports: ["11434:11434"]
+  baltic-shield:
+    build: .
+    depends_on: [ollama]
+    environment: [OLLAMA_HOST=http://ollama:11434]
+    command: ["python3","-m","src.main","info"]
+volumes: {ollama_data: {}}
