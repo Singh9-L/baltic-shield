@@ -58,7 +58,7 @@ OUTPUT: 100% Local · Zero Cloud · GDPR · AGPL-3.0
 | `src/abm/` | SEBRI model, DHPA network, population |
 | `src/xai/` | SHAP, counterfactual, audit |
 | `thesis/` | Master thesis (71 pages) |
-| `papers/` | EUMAS 2026, FedCSIS papers |
+| `papers/` | EUMAS 2026|
 | `docs/` | Equations, reproduction guide |
 | `tests/` | 7 automated tests |
 
